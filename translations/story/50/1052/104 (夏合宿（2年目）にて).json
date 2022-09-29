@@ -9,7 +9,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "夏合宿中のある日、\r\n夕方のビーチを歩いていると――",
-            "enText": "One day during summer camp, I was walking \nalong the beach in the evening.",
+            "enText": "One day during the summer training camp, \nI was walking along the beach \nin the evening, when—",
             "nextBlock": 2,
             "origClipLength": 61,
             "pathId": -6820107432664753807,
@@ -19,13 +19,13 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "――そっかぁ。ライスちゃんも、\r\n今日の模擬レース、負けちゃったんだね。",
-            "enText": "―I see. I guess you lost the mock race today, \ntoo, Rice-chan.",
+            "enText": "—I see. So Rice-chan lost today's \nmock race, too.",
             "nextBlock": 3,
             "origClipLength": 68,
             "coloredText": [
                 {
                     "jpText": "ライス",
-                    "enText": "rice (esp. when served on a plate)"
+                    "enText": "Rice"
                 }
             ],
             "animData": [
@@ -53,7 +53,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "うん、そうなの……。\r\n相手の子、とっても速かった……。",
-            "enText": "Yeah, that's right.…… The other \nkid was very fast. ……",
+            "enText": "Yeah, that's right… \nThe other girl was really fast…",
             "nextBlock": 4,
             "origClipLength": 63,
             "animData": [
@@ -81,13 +81,13 @@
             "jpName": "",
             "enName": "",
             "jpText": "ハルウララとライスシャワーが、\r\n海を眺めながら話をしていた。\n内容は、昼間の模擬レースについてのようだ。",
-            "enText": "Halulaura and Rice Shower were talking \nwhile looking out at the ocean. The \nconversation seemed to be about the \nmock race during the day.",
+            "enText": "Haru Urara and Rice Shower were talking \nas they gazed out at the sea. \nIt looked like their conversation was about \nthe mock race this afternoon.",
             "nextBlock": 5,
             "origClipLength": 79,
             "coloredText": [
                 {
                     "jpText": "ライスシャワー",
-                    "enText": "rice shower"
+                    "enText": "Rice Shower"
                 }
             ],
             "animData": [
@@ -115,7 +115,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "合宿の目玉として\r\n生徒同士で行われた、\n2500mの併走トレーニング。",
-            "enText": "The highlight of the training camp \nwas a 2500-meter parallel training \nrun between students.",
+            "enText": "It was a 2,500 meter double-running \ntraining session between students \nas the highlight of the training camp.",
             "nextBlock": 6,
             "origClipLength": 68,
             "animData": [
@@ -143,7 +143,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "ハルウララは残念ながらボロ負け。\r\nハルウララには、この距離が長すぎることは\n予想していた。だが……。",
-            "enText": "Unfortunately, Halulaura was ragged. The \ndistance was too long for Halulaura, which \nwas I had expected that. But ……",
+            "enText": "Unfortunately, Haru Urara lost. \nI had a hunch that this distance \nwould be too long for her. But…",
             "nextBlock": 7,
             "origClipLength": 78,
             "pathId": 8652941527928441825,
@@ -153,7 +153,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "けど、ライスちゃんって\r\n距離の長いほうが得意だったよね？",
-            "enText": "But Rice, you were better at longer \ndistances, weren't you?",
+            "enText": "But I though Rice-chan was better \nat long distances, weren't you?",
             "nextBlock": 8,
             "origClipLength": 63,
             "animData": [
@@ -181,7 +181,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "……うん、ライスも、そう思ってた。\r\nだから、悲しいの……。",
-            "enText": "…… Yeah, Rice thought so, \ntoo. That's why I'm sad ……",
+            "enText": "… Yeah, Rice thought so, too. \nThat's why Rice is sad…",
             "nextBlock": 9,
             "origClipLength": 64,
             "animData": [
@@ -209,7 +209,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "ライスにだって、いいところが\r\nあるのかもって……思ってたのに。\nもう、なくなっちゃったみたいで……。",
-            "enText": "I was thinking…… that even Rice \nmight have some good points. It \nlooks like it's gone now. ……",
+            "enText": "Rice thought that she might have \nsome good qualities after all… \nBut it looks like it's all gone now…",
             "nextBlock": 10,
             "origClipLength": 78,
             "animData": [
@@ -237,7 +237,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "やっぱりライスは、\r\nなんにもできない子だったんだ……。",
-            "enText": "After all, Rice was a child \nwho couldn't do anything. ……",
+            "enText": "In the end, \nRice is a good for nothing…",
             "nextBlock": 11,
             "origClipLength": 63,
             "animData": [
@@ -265,7 +265,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "えー、なんで？\r\nなんでできない子なの？",
-            "enText": "Well, why? Why can't you do it?",
+            "enText": "Eh, why? \nWhy are you a good for nothing?",
             "nextBlock": 12,
             "origClipLength": 58,
             "animData": [
@@ -293,7 +293,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "え？　え、だ、だって……\r\n負けちゃったから……。",
-            "enText": "Huh? Eh, because…… I lost. ……",
+            "enText": "Eh? Huh, be-because… \nBecause Rice lost…",
             "nextBlock": 13,
             "origClipLength": 61,
             "animData": [
@@ -321,7 +321,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "負けたら、とつぜんピカーッて\r\nなんにもできない子になっちゃうの？",
-            "enText": "If I lose, will I suddenly become a child who \ncan't do anything?",
+            "enText": "So if you lose, do you suddenly become \na good for nothing?",
             "nextBlock": 14,
             "origClipLength": 66,
             "animData": [
@@ -349,7 +349,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "ライスちゃんは、\r\nライスちゃんのままなのに？",
-            "enText": "Rice is still Rice?",
+            "enText": "Even though Rice-chan is still Rice-chan?",
             "nextBlock": 15,
             "origClipLength": 60,
             "animData": [
@@ -377,7 +377,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "それとも今しゃべってるライスちゃんって、\r\nピカーッてされたライスちゃんなの！？",
-            "enText": "Or is the Rice-chan who is talking now the \nRice-chan who was just piked?",
+            "enText": "Or is this Rice-chan who I'm talking \nright now the Rice-chan who has become \na good for nothing?!",
             "nextBlock": 16,
             "origClipLength": 71,
             "animData": [
@@ -405,7 +405,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "え、えっと……？\r\nそ、そういうわけじゃ、ないけど……。",
-            "enText": "Well, uh, ……? Well, not that, but ……",
+            "enText": "H-Huh? \nN-No, that's not it…",
             "nextBlock": 17,
             "origClipLength": 75,
             "animData": [
@@ -433,7 +433,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "じゃあ、なんにもできなくないよ！\r\nいっぱい走れるライスちゃんのままだよ！",
-            "enText": "Then there's nothing you can't do! You're \nstill the same Rice who can run a lot!",
+            "enText": "Then you have nothing to worry about! \nYou're still the same Rice who can run a lot!",
             "nextBlock": 18,
             "origClipLength": 69,
             "animData": [
@@ -461,7 +461,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "……っ。\r\nそう、なのかな……？",
-            "enText": "…… Yes, is it ……?",
+            "enText": "…… Is that… so…?",
             "nextBlock": 19,
             "origClipLength": 55,
             "animData": [
@@ -493,7 +493,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "そうだよー！\r\nいっかい負けたくらいじゃ変わらないもん！",
-            "enText": "That's right! One loss won't change that!",
+            "enText": "That's right! \nLosing once won't change anything!",
             "nextBlock": 20,
             "origClipLength": 63,
             "animData": [
@@ -525,7 +525,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "わたしだっていーっぱい負けてるけど、\r\nずーっとハルウララのままでしょ？",
-            "enText": "I've lost a lot, too, but I've always been a \nharuurara, haven't I?",
+            "enText": "I've lost a lot myself, but I'm still the same \nHaru Urara, right?",
             "nextBlock": 21,
             "origClipLength": 68,
             "animData": [
@@ -553,13 +553,13 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "……そうだね……。\r\nいつもニコニコの、ウララちゃんのまま……。",
-            "enText": "…… yes, that's right…… Always \nsmiling, as is Urara. ……",
+            "enText": "You're right… \nYou're still the same smiling Urara-chan…",
             "nextBlock": 22,
             "origClipLength": 65,
             "coloredText": [
                 {
                     "jpText": "ウララ",
-                    "enText": "Ulla."
+                    "enText": "Urara"
                 }
             ],
             "animData": [
@@ -587,7 +587,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "でしょ？　わたし変わらないでしょ？\r\nだから、ライスちゃんもライスちゃんだよ！",
-            "enText": "Right? I'm the same, right? So, Rice-chan is \nstill Rice-chan!",
+            "enText": "Right? I'm the same after all. \nThat's why Rice-chan is still Rice-chan too!",
             "nextBlock": 23,
             "origClipLength": 70,
             "animData": [
@@ -615,7 +615,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "ライスちゃんがライスちゃんってことは、\r\nライスちゃんのライスちゃ……あれ？　むむ？",
-            "enText": "Rice-chan is Rice-chan, which means \nRice-chan's Rice-chan…… Huh? Mm?",
+            "enText": "If Rice-chan is Rice-chan, this means \nRice-chan's Rice-cha… Huh? Hmm?",
             "nextBlock": 24,
             "origClipLength": 72,
             "animData": [
@@ -643,7 +643,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "とにかく、ライスちゃんも次は\r\nぜったい勝てるから、大丈夫！",
-            "enText": "Anyway, you'll definitely \nwin next time, Rice-chan!",
+            "enText": "Anyway, Rice-chan will definitely win \nnext time, so don't worry!",
             "nextBlock": 25,
             "origClipLength": 64,
             "animData": [
@@ -671,7 +671,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "ふふっ……ありがとう。\r\nなんだか、大丈夫な気がしてきたよ……。",
-            "enText": "Phew thanks for the…… I feel \nlike I'm doing okay. ……",
+            "enText": "Heehee… Thank you. \nI'm starting to feel better…",
             "nextBlock": 26,
             "origClipLength": 65,
             "animData": [
@@ -699,7 +699,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "……これ以上、立ち聞きするのは良くない。\r\nそう思って、踵を返そうとしたところ――",
-            "enText": "……It's not a good idea to stand around and \nlisten any longer. So I thought, and was \nabout to turn on my heel―",
+            "enText": "… It's not good to eavesdrop any further. \nThinking that, I was about to turn around \nwhen―",
             "nextBlock": 27,
             "origClipLength": 71,
             "animData": [
@@ -727,7 +727,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "……ウララちゃんは、すごいよね。\r\n負けても負けても、前を向けて……。",
-            "enText": "…… Urara is amazing, isn't she? \nEven though she loses and loses, \nshe keeps looking forward. ……",
+            "enText": "… You're amazing, Urara-chan. \nNo matter how much you lose, \nyou keep moving forward…",
             "nextBlock": 28,
             "origClipLength": 67,
             "animData": [
@@ -755,7 +755,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "どうしてそこまで……\r\nずーっと、がんばれるの？",
-            "enText": "How can you keep going so…… \nhard, all the time?",
+            "enText": "Why do you… always do your best?",
             "nextBlock": 29,
             "origClipLength": 60,
             "animData": [
@@ -783,7 +783,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "んー……？",
-            "enText": "Hmmm… ……?",
+            "enText": "Hmm?",
             "nextBlock": 30,
             "origClipLength": 48,
             "animData": [
@@ -811,7 +811,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "それは、自分としても気になる質問だった。\r\n彼女はなぜ、負けても負けても走るのか？\nもし――",
-            "enText": "That was a question that bothered me as well. \nWhy does she run, losing or not? If―",
+            "enText": "That question bothered me as well. \nWhy does she run even though \nshe keeps losing? If―",
             "nextBlock": 31,
             "origClipLength": 75,
             "animData": [
@@ -839,7 +839,7 @@
             "jpName": "商店街の人A",
             "enName": "Market Person A",
             "jpText": "いいのよ。私たちは、\r\nウララちゃんが明るく走ってくれれば……。",
-            "enText": "It's okay. We're all happy \nif Urara runs brightly ……",
+            "enText": "It's okay. We're all happy \nif Urara-chan runs brightly…",
             "nextBlock": 32,
             "origClipLength": 65,
             "animData": [
@@ -867,7 +867,7 @@
             "jpName": "商店街の人A",
             "enName": "Market Person A",
             "jpText": "なんだかすごく、励まされるの。\r\nそれだけで、嬉しいの。",
-            "enText": "It's very, very encouraging. \nThat alone makes me happy.",
+            "enText": "It's really encouraging. \nThat alone makes us very happy.",
             "nextBlock": 33,
             "origClipLength": 63,
             "pathId": 1349910118362648474,
@@ -877,7 +877,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "――ただ、明るく楽しく走りたいから。\r\n本当にそう思っているだけだとしたら……。",
-            "enText": "― just because I want to run bright and \nhappy. If you really just want to do that, \nyou can go to ……",
+            "enText": "―She just want to run cheerfully \nand happily. If that's really what \nshe's thinking……",
             "nextBlock": 34,
             "origClipLength": 71,
             "animData": [
@@ -905,7 +905,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "そんなの、決まってるよー！",
-            "enText": "Oh, no, of course not!",
+            "enText": "That's obvious!",
             "nextBlock": 35,
             "origClipLength": 53,
             "animData": [
@@ -933,7 +933,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "だって――勝ちたいんだもん！\r\n走らなきゃ、勝てないでしょ？",
-            "enText": "Because―I want to win! If we don't run, we \ncan't win, right?",
+            "enText": "Because―I want to win! \nIf I don't run, I can't win, right?",
             "nextBlock": 36,
             "origClipLength": 64,
             "animData": [
@@ -989,7 +989,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "みんな……？",
-            "enText": "Is everyone on ……?",
+            "enText": "Everyone?",
             "nextBlock": 38,
             "origClipLength": 48,
             "animData": [
@@ -1017,7 +1017,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "んっとね、商店街のみんなとか、\r\nお友だちとか……トレーナーも！",
-            "enText": "Well, everyone in the shopping district, your \nfriends, and the…… trainer!",
+            "enText": "Well, everyone in the shopping district, \nmy friends… and also my trainer!",
             "nextBlock": 39,
             "origClipLength": 65,
             "animData": [
@@ -1045,7 +1045,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "どんなに負けてもね、\r\nみんな楽しく応援してくれるの！",
-            "enText": "No matter how much we lose, they cheer us on!",
+            "enText": "No matter how much I lose, \neveryone's always cheering me on!",
             "nextBlock": 40,
             "origClipLength": 62,
             "animData": [
@@ -1073,7 +1073,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "だからね、わたしが勝ったら\r\nもーっと喜んでくれると思うんだ！",
-            "enText": "So, I'm sure they'll be more \nthan happy if I win!",
+            "enText": "So, I'm sure they'll be more than happy \nif I win!",
             "nextBlock": 41,
             "origClipLength": 65,
             "animData": [
@@ -1101,7 +1101,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "だから勝ちたい！\r\nううん、勝つぞーっ！",
-            "enText": "That's why I want to win! No, I want to win!",
+            "enText": "That's why I want to win! \nNo, I will definitely win!",
             "nextBlock": 42,
             "origClipLength": 58,
             "animData": [
@@ -1129,7 +1129,7 @@
             "jpName": "ライスシャワー",
             "enName": "Rice Shower",
             "jpText": "そっか……。\r\nふふ……ウララちゃんらしいね。",
-            "enText": "I see.…… Hmmm… that's very \ntypical of Urara at ……",
+            "enText": "I see… \nFufu… That's just like you, Urara-chan.",
             "nextBlock": 43,
             "origClipLength": 60,
             "animData": [
@@ -1157,7 +1157,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "……そうだった。\r\nハルウララは、勝つことを諦めていない。\nならば、自分がやるべきことはひとつだけだ！",
-            "enText": "…… it was. Halulaura has not given \nup on winning. Then there is only \none thing for me to do!",
+            "enText": "… That's right. \nHaru Urara hasn't given up on winning. \nThen there's only one thing for me to do!",
             "nextBlock": 44,
             "origClipLength": 78,
             "animData": [
@@ -1446,5 +1446,5 @@
             "blockIdx": 55
         }
     ],
-    "modified": 1657555061
+    "modified": 1664274120
 }
