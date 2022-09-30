@@ -9,13 +9,13 @@
             "jpName": "",
             "enName": "",
             "jpText": "ハルウララの、トゥインクル・シリーズに\r\n向けた挑戦が始まった。目指すのは、どんな\nレースでもいいから、『1着』になること！",
-            "enText": "Haru Urara's challenge for the Twinkle \nSeries has begun. The goal is to finish \nfirst in any race! to finish first, \nno matter what the race!",
+            "enText": "Haru Urara's challenge for \nthe Twinkle Series has begun. \nThe goal is to be 1st in any race, \nno matter what!",
             "nextBlock": 2,
             "origClipLength": 125,
             "coloredText": [
                 {
                     "jpText": "ハルウララ",
-                    "enText": "Japanese bird cherry (Prunus grayana)"
+                    "enText": "Haru Urara"
                 },
                 {
                     "jpText": "トゥインクル・シリーズ",
@@ -39,7 +39,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "しかし、集中力があまりないハルウララは\r\nトレーニングを忘れて遊び回ってしまう。",
-            "enText": "However, Harurara, who does not have \nmuch concentration, forgets about \nher training and plays around.",
+            "enText": "However, Haru Urara, who does not have \nmuch concentration, forgets her training \nand plays around.",
             "nextBlock": 3,
             "origClipLength": 97,
             "animData": [
@@ -59,7 +59,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "はたして、飽きっぽいハルウララは、\r\nトレーニングを積んで、無事に『1着』を\n手にすることができるのだろうか？",
-            "enText": "Will the bored Haru Urara be able to train \nhard and get the \"first place\"? Will she be \nable to get her hands on the \"one\" suit?",
+            "enText": "Will the easily bored Haru Urara be able \nto train and successfully win the 1st place?",
             "nextBlock": -1,
             "origClipLength": 116,
             "animData": [
@@ -76,5 +76,5 @@
             "blockIdx": 3
         }
     ],
-    "modified": 1657421360
+    "modified": 1664535975
 }
