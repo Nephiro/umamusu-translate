@@ -1185,7 +1185,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "ライスちゃんも帰っちゃったし……よし！\r\nなんだか、走りたくなってきちゃった！",
-            "enText": "Ricey's gone home, too.…… Okay! \nI kinda feel like running!",
+            "enText": "Rice-chan has gone home, too… All right! \nI feel like running!",
             "nextBlock": 45,
             "origClipLength": 70,
             "animData": [
@@ -1205,18 +1205,18 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "ちょこっとだけ、\r\n追加トレーニングしちゃおっかなー？",
-            "enText": "I think I'll do a little extra training.",
+            "enText": "Maybe I should do some extra training?",
             "nextBlock": 46,
             "origClipLength": 62,
             "choices": [
                 {
                     "jpText": "付き合うぞ！",
-                    "enText": "I'm going out with you!",
+                    "enText": "I'm coming with you!",
                     "nextBlock": 46
                 },
                 {
                     "jpText": "付き合うよ！",
-                    "enText": "I'll go out with you!",
+                    "enText": "I'll go with you!",
                     "nextBlock": 46
                 }
             ],
@@ -1237,7 +1237,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "わわっ、トレーナーだ！\r\nちょうどいいところにっ！",
-            "enText": "Wow, a trainer! Right where I want it!",
+            "enText": "Ah, trainer! \nPerfect timing!",
             "nextBlock": 47,
             "origClipLength": 61,
             "animData": [
@@ -1257,18 +1257,18 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "今ね、走りたいなーと思ってたんだ！\r\nトレーニング、何しよっか？",
-            "enText": "Now you know, I've always wanted to run! \nTraining, what shall we do?",
+            "enText": "I was just thinking I wanna run! \nWhat should I do for training?",
             "nextBlock": 48,
             "origClipLength": 65,
             "choices": [
                 {
                     "jpText": "砂浜でタイヤ引きだ！",
-                    "enText": "Tire pull on the beach!",
+                    "enText": "Pulling tires on the beach!",
                     "nextBlock": 48
                 },
                 {
                     "jpText": "日が暮れるまで砂浜ダッシュだ！",
-                    "enText": "Dash to the beach until sundown!",
+                    "enText": "Sprint to the beach until sundown!",
                     "nextBlock": 52
                 }
             ],
@@ -1289,7 +1289,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "タイヤ引き～！？\r\nごくりっ……。",
-            "enText": "Tire pull～! Gosh, ……",
+            "enText": "Pulling tires?! \n*Gulp*",
             "nextBlock": 49,
             "origClipLength": 56,
             "animData": [
@@ -1309,7 +1309,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "わかった、わたしやるよ！\r\nすっごくトレーニングって感じするもんね！",
-            "enText": "Okay, I'll do it! It feels \nlike a great workout!",
+            "enText": "Okay, I'll do it! \nIt feels like a great workout!",
             "nextBlock": 50,
             "origClipLength": 67,
             "animData": [
@@ -1329,7 +1329,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "よろしくお願いしまーすっ！",
-            "enText": "I'm looking forward to working with you!",
+            "enText": "I look forward to training with you!",
             "nextBlock": 51,
             "origClipLength": 93,
             "animData": [
@@ -1349,7 +1349,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "こうしてハルウララは、\r\n少しだけ筋力をつけることができた。",
-            "enText": "In this way, Harulara was able to gain a \nlittle muscle strength.",
+            "enText": "This way, Haru Urara was able \nto build up a bit of muscle strength.",
             "nextBlock": -1,
             "origClipLength": 64,
             "animData": [
@@ -1369,7 +1369,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "日が暮れるまで～！？\r\nそれって、それって……！",
-            "enText": "Until the sun goes down～! That's, that's ……!",
+            "enText": "Until sundown?! \nThat's, that's…",
             "nextBlock": 53,
             "origClipLength": 60,
             "animData": [
@@ -1389,7 +1389,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "ネイちゃんの読んでた漫画みたい！\r\nうんっ、やるやるー！",
-            "enText": "It's just like the comic books Ney used to \nread! Yes, I'll do it!",
+            "enText": "That's just like the manga \nNei-chan was reading! \nYeah, I'll do it!",
             "nextBlock": 54,
             "origClipLength": 63,
             "animData": [
@@ -1409,7 +1409,7 @@
             "jpName": "ハルウララ",
             "enName": "Haru Urara",
             "jpText": "お日さまと競走だーっ！",
-            "enText": "Race you to the sun!",
+            "enText": "It's a race against the sun!",
             "nextBlock": 55,
             "origClipLength": 52,
             "animData": [
@@ -1429,7 +1429,7 @@
             "jpName": "",
             "enName": "",
             "jpText": "こうしてハルウララは、\r\nへろへろになるまで頑張る力を身につけた。",
-            "enText": "In this way, Haru Urara acquired the strength \nto work hard until she was exhausted.",
+            "enText": "This way, Haru Urara acquired the power \nto persevere until she was exhausted.",
             "nextBlock": -1,
             "origClipLength": 66,
             "animData": [
@@ -1446,5 +1446,5 @@
             "blockIdx": 55
         }
     ],
-    "modified": 1664274120
+    "modified": 1664534577
 }
