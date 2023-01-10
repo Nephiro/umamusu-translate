@@ -5,8 +5,8 @@ from os import PathLike, environ, name as osname
 
 import regex
 
-DMM_CONFIG = Path(environ['APPDATA']) / "dmmgameplayer5" / "dmmgame.cnf"
 IS_WIN = osname == "nt"
+DMM_CONFIG = Path(environ['APPDATA']) / "dmmgameplayer5" / "dmmgame.cnf" if IS_WIN else None
 __GAME_INSTALL_DIR = False
 __IS_USING_TLG = None
 
@@ -15,11 +15,11 @@ def readJson(file: PathLike) -> Union[dict, list]:
         return json.load(f)
 
 
-def writeJson(file: PathLike, data):
+def writeJson(file: PathLike, data, indent=4):
     file = Path(file)
     file.parent.mkdir(parents=True, exist_ok=True)
     with open(file, "w", encoding="utf8", newline="\n") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4, default=_to_json)
+        json.dump(data, f, ensure_ascii=False, indent=indent, default=_to_json)
 
 
 def _to_json(o):
