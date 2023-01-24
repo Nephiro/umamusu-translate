@@ -37,16 +37,19 @@ class AudioPlayer:
             self._closeWavStream()
             self.audioOut.close()
         self.pyaud.terminate()
-    def play(self, storyId, idx, sType="story"):
+    def play(self, storyId:str, idx, sType="story"):
         '''Plays audio for a specific text block'''
+        storyId:common.StoryId = common.StoryId.parse(sType, storyId)
+        qStoryId = common.StoryId.queryfy(storyId)
         if idx < 0:
             print("Text block is not voiced.")
             return
         if reloaded := self.curPlaying[0] != storyId:
             if sType == "home":
-                stmt = f"SELECT h FROM a WHERE n LIKE 'sound%{storyId[:2]}\_{storyId[2:]}.awb' ESCAPE '\\'"
+                # sound/c/snd_voi_story_00001_02_1054001.acb
+                stmt = f"SELECT h FROM a WHERE n LIKE 'sound%{qStoryId.set}\_{qStoryId.group}\_{qStoryId.id}{qStoryId.idx}\.awb' ESCAPE '\\'"
             else:
-                stmt = f"SELECT h FROM a WHERE n LIKE 'sound%{storyId}.awb'"
+                stmt = f"SELECT h FROM a WHERE n LIKE 'sound%{qStoryId}.awb'"
             h = self._db.execute(stmt).fetchone()
             if h is None:
                 print("Couldn't find audio asset.")
@@ -465,6 +468,9 @@ def _search_text_blocks(chapter):
     file = files[chapter]
     for i in range(start_block, len(file.textBlocks)):
         block = file.textBlocks[i]
+        # Ignore blacklisted names when searching for empties
+        if s_field.startswith("enN") and s_re == "^$" and block.get("jpName") in common.NAMES_BLACKLIST:
+            continue
         if re.search(s_re, block.get(s_field, ""), flags=re.IGNORECASE):
             # print(f"Found {s_re} at ch{chapter}:b{i}")
             if chapter != cur_chapter:
@@ -613,7 +619,7 @@ def tlNames():
 
 def nextMissingName():
     for idx, block in enumerate(cur_file.textBlocks):
-        if block.get("jpName") not in common.NAMES_BLACKLIST and not block.get("enName"):
+        if not block.get("enName") and block.get("jpName") not in common.NAMES_BLACKLIST:
             block_dropdown.current(idx)
             change_block()
 
@@ -628,7 +634,7 @@ def listen(event=None):
         return "break"
     storyId = cur_file.data.get("storyId")
     voiceIdx = cur_file.textBlocks[cur_block].get("voiceIdx")
-    if len(storyId) != 9:
+    if not storyId or len(storyId) < 9:
         # Could support a few other types but isn't useful.
         print("Unsupported type.")
         return "break"
@@ -685,7 +691,7 @@ def main():
     if args.src:
         files = [args.src]
     else:
-        files = common.searchFiles(args.type, args.group, args.id, args.idx, changed = args.changed)
+        files = common.searchFiles(args.type, args.group, args.id, args.idx, targetSet=args.set, changed = args.changed)
         if not files:
             print("No files match given criteria")
             raise SystemExit
@@ -756,8 +762,8 @@ def main():
 
     frm_btns_side = tk.Frame(root)
     side_buttons = (
-        tk.Button(frm_btns_side, text="Italic", command=lambda: format_text(SimpleNamespace(key=73))),
-        tk.Button(frm_btns_side, text="Bold", command=lambda: format_text(SimpleNamespace(key=66))),
+        tk.Button(frm_btns_side, text="Italic", command=lambda: format_text(SimpleNamespace(keycode=73))),
+        tk.Button(frm_btns_side, text="Bold", command=lambda: format_text(SimpleNamespace(keycode=66))),
         tk.Button(frm_btns_side, text="Convert\nunicode codepoint", command=char_convert),
         tk.Button(frm_btns_side, text="Process text", command=lambda: process_text(SimpleNamespace(state=0))),
         tk.Button(frm_btns_side, text="Process text\n(clean newlines)", command=lambda: process_text(SimpleNamespace(state=1))),

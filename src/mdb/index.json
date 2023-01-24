@@ -12,7 +12,7 @@
             "item-desc": 24,
             "skill-name": 47,
             "skill-desc": 48,
-            "race-name": [28, 29, 32, 33, 36, 111],
+            "race-name": {"spec": [28, 29, 32, 33, 36, 111], "sql": "\"index\" not BETWEEN 20000 and 30000"},
             "trainer-title": 65,
             "trainer-title-requirements": 66,
             "missions": 67,
@@ -38,7 +38,7 @@
             "gacha-names": 26,
             "presents-desc": 64,
             "item-uma-pieces": 113,
-            "uma-profile-intro": [163],
+            "uma-profile-intro": 163,
             "uma-profile-tagline": {"spec": 144, "tlg": true},
             "uma-profile-weight": 9,
             "uma-profile-shoesize": 168,
@@ -80,7 +80,10 @@
             "card-stories": {
                 "spec": 88,
                 "sql": "\"index\" NOT LIKE '1%'"
-            }
+            },
+            "meek-challenges": 267,
+            "stroll-locations": 268,
+            "event-titles": [189, 214]
         },
         "overrides": {
             "skill_data": ["skill-desc", "alt/skill-desc"]
@@ -110,7 +113,12 @@
             "urara": 1052,
             "eishin": 1037,
             "tazuna": 9001,
-            "doto": 1058
+            "doto": 1058,
+			"Rob Roy": 1047,
+			"Dober": 1059,
+			"Tarumae": 1099,
+			"Taishin": 1050,
+			"Ardan": 1071
         }
     }
 ]

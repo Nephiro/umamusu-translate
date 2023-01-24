@@ -40,15 +40,15 @@ Blossoming New Year's Karuta Contest | Complete, In progress | deepl, [noccu]
 Patisserie Grandeur | Complete | [noccu][]
 Flapping Run-up | Complete | [Hades of Games][]
 Tonight at the Ligne Droite | Complete | Anonymous Reindeer
-A Resounding Cheer, Tracen Academy Cheerleading Squad! | Transferring | [LotoDS][]
+A Resounding Cheer, Tracen Academy Cheerleading Squad! | Complete | [LotoDS]
 The Promised Time: Silks & Three Riddles | Transferring/Stalled, Complete | [Snep][], deepl
 Seek, Solve, Summer Walk! | Complete | [noccu][]
 Super Smashing☆Summer Vacation | Stalled | Anonymous Reindeer
-Wings of Iron: Hazy Tales | In Progress | [noccu] (ep 1-2)
+Wings of Iron: Hazy Tales | Complete | [noccu]
 Days in a Flash | Complete | [Kuwaiden]
+Intertwined Memories, Galloping Thoughts | Complete | deepl
 Illuminate the Heart | Complete | [robflop]
 Happy new future ～Bonds dyed in the sunrise～ | Complete | deepl
-Intertwined Memories, Galloping Thoughts | Complete | deepl
 The rest up to 2022/07/08 | Complete | deepl (contributed by Korgi)
 
 # Collab Events
@@ -81,6 +81,7 @@ Gold City | Complete | [Hades of Games][]
 Gold Ship | Complete | deepl
 Grass Wonder | Complete | deepl
 Haru Urara | Complete | [Vacxy][] (ep 1), deepl
+Hokko Tarumae | Complete | [Riersa]
 Inari One | Complete | [LotoDS][]
 Ines Fujin | Complete | [noccu] (ep 1-4), deepl
 King Halo | Complete | [burritoblaster][]
@@ -100,7 +101,7 @@ Sakura Bakushin O | Complete | [noccu][]
 Sakura Chiyono O | Complete | [LotoDS][]
 Seiun Sky | In progress | [CatNipHoarder][] & [Holo][] (ep 1-4)
 Silence Suzuka | Complete | [LotoDS][]
-Smart Falcon | Complete | deepl (contributed by CryDuringItAll)
+Smart Falcon | Complete | [LotoDS][]
 Special Week | Complete | Mann
 Super Creek | In Progress, Complete | [DantheBoss] (ep 1-2), deepl
 Sweep Tosho | Stalled, Complete | FragmentalSolstice, deepl
@@ -109,6 +110,7 @@ Taiki Shuttle | Complete | [LotoDS][]
 Tamamo Cross | Complete | [LotoDS][]
 Vodka | Complete | [robflop][]
 Yaeno Muteki | Complete | [LotoDS][] (ep 1-4), deepl
+Yamanin Zephyr | Complete | [Director Kok][]
 Zenno Rob Roy | Stalled | [LotoDS][] (ep 1-4)
 
 
@@ -176,10 +178,11 @@ Vodka (SSR, Road of Vodka) | Complete | [robflop][]
 name | progress | translator
 --- | --- | ---
 All not listed up to 2023/01/01 | Complete | deepl (contributed by Korgi up to 2022/07/08)
-Maruzensky | Complete | [noccu][]
-Curren Chan | Complete | [noccu][]
+Maruzensky | Complete | [noccu]
+Curren Chan | Complete | [noccu]
 Kitasan Black | Stalled | [noccu] (solo 2)
-Gold Ship | Complete | [noccu][] (solo 1-2), deepl
+Gold Ship | Complete | [noccu] (solo 1-2), deepl
+Yaeno Muteki | Complete | [noccu] (solo 2), deepl
 
 # System text
 name | progress | translator
@@ -187,10 +190,15 @@ name | progress | translator
 All not listed up to 2022/07/08 | Complete | deepl (contributed by Korgi)
 Eishin Flash | Complete | deepl
 Haru Urara | Complete | deepl
+Hokko Tarumae | Complete | [Riersa]
+Mejiro Ardan | Complete | [Riersa]
 Meisho Doto | Complete, In Progress | deepl, [Mini Fox][]
+Mejiro Dober | Complete | [Riersa]
+Narita Taishin | Complete | [Riersa]
 Tazuna | In Progress | [Nephiro] (5/78)
 Tokai Teio | Stalled | [noccu] (2/211)
 Twin Turbo | Complete | [noccu]
+Zenno Rob Roy | Complete | [Riersa]
 
 # General
 name | progress | translator
@@ -241,3 +249,5 @@ Yume wo Kakeru! | Complete | [SkySubs](https://skysubs.carrd.co/)
 [DantheBoss]: https://www.youtube.com/channel/UCqAtDEmjrzy4twoZnvH-upw
 [Nine]: https://www.youtube.com/@nineumasubs8221
 [Solo]: https://www.youtube.com/@solotranslation8586
+[Riersa]: https://www.reddit.com/u/Riersa
+[Director Kok]: https://www.twitch.tv/chrissss_pp
