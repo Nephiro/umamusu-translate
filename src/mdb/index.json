@@ -7,12 +7,12 @@
             "common": null,
             "miscellaneous": null,
             "uma-title": 5,
-            "uma-name": 6,
+            "char-name": [6, 77, 78],
             "item-name": 23,
             "item-desc": 24,
-            "skill-name": 47,
+            "skill-name": [47, {"spec": 147, "sql":"\"index\" BETWEEN 2000100 and 3000100"}],
             "skill-desc": 48,
-            "race-name": {"spec": [28, 29, 32, 33, 36, 111], "sql": "\"index\" not BETWEEN 20000 and 30000"},
+            "race-name": {"spec": [28, 29, 32, 33, 36, 111, 218], "sql": "\"index\" not BETWEEN 20000 and 30000"},
             "trainer-title": 65,
             "trainer-title-requirements": 66,
             "missions": 67,
@@ -56,13 +56,14 @@
             "tazuna-tips": {"spec": 69, "tlg": true, "sql": "\"index\" BETWEEN 8000 AND 8999"},
             "uma-secrets": {"spec": 69, "tlg": true, "sql": "\"index\" > 8999"},
             "support-effect-unique-name": 150,
-            "support-effect-name": 151,
+            "support-effect-name": [151, 294],
             "support-effect-desc": 154,
             "support-full-name": 75,
             "tutorial-text": 3,
             "song-desc": 128,
             "static-uma-profile": 175,
             "jukebox-comments": 228,
+            "scenario-names": 119,
             "scenario-desc": 120,
             "scenario-item-name": 225,
             "scenario-item-desc-long": 226,
@@ -83,7 +84,22 @@
             },
             "meek-challenges": 267,
             "stroll-locations": 268,
-            "event-titles": [189, 214]
+            "event-titles": [189, 214],
+            "valentine-gift-names": 273,
+            "valentine-gift-notes": [271, 272],
+            "knowledge-effects": [296],
+            "knowledge-buffs": 298,
+            "skill-evolve-cond": 290,
+            "exchange-names": 39,
+            "cashshop-names": 49,
+            "cashshop-desc": {"spec": 96, "sql": "\"index\" < 101"},
+            "outfits": 14,
+            "live-names": 16,
+            "training-actions": 55,
+            "loadscreen-titles": 68,
+            "uma-rank": 121,
+            "training-comments": 139,
+            "poster-detail": 196
         },
         "overrides": {
             "skill_data": ["skill-desc", "alt/skill-desc"]
@@ -105,6 +121,7 @@
         "specifier": "character_id",
         "subdir": true,
         "tlg": true,
+        "winBreaks": true,
         "files": {
             "tokai_teio": 1003,
             "ines": 1031,
@@ -118,7 +135,10 @@
 			"Dober": 1059,
 			"Tarumae": 1099,
 			"Taishin": 1050,
-			"Ardan": 1071
+			"Ardan": 1071,
+			"Fine" : 1022,
+            "grass": 1011,
+            "bakushin": 1041
         }
     }
 ]

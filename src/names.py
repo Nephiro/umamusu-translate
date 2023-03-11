@@ -6,7 +6,7 @@ NAMES_DICT = None
 def loadDict():
     global NAMES_DICT
     names = helpers.readJson("src/data/names.json")
-    umas = helpers.readJson("translations/mdb/uma-name.json").get("text")
+    umas = helpers.readJson("translations/mdb/char-name.json").get("text")
     misc = helpers.readJson("translations/mdb/miscellaneous.json").get("text")
     NAMES_DICT = misc.copy()
     NAMES_DICT.update(names)
@@ -39,8 +39,8 @@ def extract(files:list):
             if name in common.NAMES_BLACKLIST:
                 continue
             if name not in NAMES_DICT:
-                curNames[name] = ""
-                NAMES_DICT[name] = ""
+                curNames[name] = block.get("enName", "")
+                NAMES_DICT[name] = block.get("enName", "")
                 newNames += 1
     helpers.writeJson("src/data/names.json", curNames)
     return newNames

@@ -194,7 +194,7 @@ class DataTransfer:
         if not self._printedName:
             print(f"\nIn {self.file.name}:")
             self._printedName = True
-        print(text)
+        print(f"\t{text}")
 
     def __call__(self, storyId:StoryId, textData):
         # Existing files are skipped before reaching here so there's no point in checking when we know the result already.
@@ -210,7 +210,7 @@ class DataTransfer:
 
             self.file = common.TranslationFile(file)
 
-        textSearch = False
+        textSearch = True
         targetBlock = None
         textBlocks = self.file.textBlocks
         txtIdx = 0
@@ -219,27 +219,20 @@ class DataTransfer:
             if txtIdx < len(textBlocks):
                 targetBlock = textBlocks[txtIdx]
                 if not args.upgrade and similarity(targetBlock['jpText'], textData['jpText']) < self.simRatio:
-                    self.print(f"jpText does not match at bIdx {textData['blockIdx']}")
                     targetBlock = None
-                    textSearch = True
-            else:
-                textSearch = True
-        else:
-            # TODO: The below code is completely broken
-            # self.filePrint(f"No block idx at {txtIdx}")
-            # txtIdx = int(txtIdx)
-            textSearch = True
+                else:
+                    textSearch = False
 
         if textSearch:
-            self.print("Searching by text")
+            if args.verbose: self.print("Searching by text")
             for i, block in enumerate(textBlocks):
                 if similarity(block['jpText'], textData['jpText']) > self.simRatio:
-                    self.print(f"Found text at block {i}")
+                    if args.verbose: self.print(f"Found text at block {i}")
                     self.offset = txtIdx - i
                     targetBlock = block
                     break
             if not targetBlock:
-                self.print("Text not found")
+                self.print(f"At bIdx/time {textData.get('blockIdx', textData.get('time', 'no_idx'))}: jpText not found in file.")
 
         if targetBlock:
             if args.upgrade:
@@ -249,8 +242,8 @@ class DataTransfer:
                 if args.upgrade:
                     textData['jpName'] = targetBlock['jpName']
                 textData['enName'] = targetBlock['enName']
-            if 'choices' in targetBlock:
-                for txtIdx, choice in enumerate(textData['choices']):
+            if 'choices' in targetBlock and (choices := textData.get('choices')):
+                for txtIdx, choice in enumerate(choices):
                     try:
                         if args.upgrade:
                             choice['jpText'] = targetBlock['choices'][txtIdx]['jpText']
@@ -259,8 +252,8 @@ class DataTransfer:
                         self.print(f"New choice at bIdx {targetBlock['blockIdx']}.")
                     except KeyError:
                         self.print(f"Choice mismatch when attempting data transfer at {txtIdx}")
-            if 'coloredText' in targetBlock:
-                for txtIdx, cText in enumerate(textData['coloredText']):
+            if 'coloredText' in targetBlock and (coloredText := textData.get('coloredText')):
+                for txtIdx, cText in enumerate(coloredText):
                     if args.upgrade:
                         cText['jpText'] = targetBlock['coloredText'][txtIdx]['jpText']
                     cText['enText'] = targetBlock['coloredText'][txtIdx]['enText']
@@ -301,7 +294,7 @@ def exportAsset(bundle: Optional[str], path: str, db=None):
 
     # Skip if already exported and we're not overwriting
     if not args.overwrite:
-        file = next(exportDir.glob(f"{storyId.idx}*.json"), None)
+        file = next(exportDir.glob(f"{storyId.getFilenameIdx()}*.json"), None)
         if file is not None:
             if args.verbose:
                 print(f"Skipping existing: {file.name}")
@@ -325,7 +318,7 @@ def exportAsset(bundle: Optional[str], path: str, db=None):
 
     # Remove invalid path chars (win)
     title = sanitizeFilename(outFile.data.get('title', ''))
-    idxString = f"{storyId.idx} ({title})" if title else storyId.idx
+    idxString = f"{storyId.idx} ({title})" if title else storyId.getFilenameIdx()
     outFile.setFile(str(exportDir / f"{idxString}.json"))
     outFile.save()
 
@@ -345,10 +338,12 @@ def parseArgs():
         args.dst = PurePath("translations") / args.type
     if args.upgrade or args.update is not None:
         args.overwrite = True
-        args.update = args.update or [args.type] # Doesn't make sense to upgrade non-existent files.
-    # check if upd was given without type spec and use all types if so
-    if isinstance(args.update, list) and len(args.update) == 0:
-        args.update = common.TARGET_TYPES
+        # Doesn't make sense to upgrade non-existent files.
+        if args.update is None:
+            args.update = [args.type]
+        # check if upd was given without type spec and use all types if so
+        elif len(args.update) == 0:
+            args.update = common.TARGET_TYPES
 
 
 def main():

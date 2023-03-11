@@ -15,7 +15,7 @@ Stalled | Translation was partial, paused, or cancelled.
 Complete | All the relevant content is available in English.
 Finished | Content satisfies this project's translation standards and style guide (to come).
 
-# Main
+# Main Story
 name | progress | translator
 --- | --- | ---
 Main story Act 1 Ch 1 | Complete | [CatNipHoarder][] & [Holo][]
@@ -45,10 +45,12 @@ The Promised Time: Silks & Three Riddles | Transferring/Stalled, Complete | [Sne
 Seek, Solve, Summer Walk! | Complete | [noccu][]
 Super Smashing☆Summer Vacation | Stalled | Anonymous Reindeer
 Wings of Iron: Hazy Tales | Complete | [noccu]
-Days in a Flash | Complete | [Kuwaiden]
-Intertwined Memories, Galloping Thoughts | Complete | deepl
+Days in a Flash | Complete | [Kuwaiden], [noccu] (preview)
+Intertwined Memories, Galloping Thoughts | Complete | deepl, [noccu] (preview)
 Illuminate the Heart | Complete | [robflop]
-Happy new future ～Bonds dyed in the sunrise～ | Complete | deepl
+Happy new future ～Bonds dyed in the sunrise～ | Complete | deepl, [noccu] (preview)
+Sweet Memory Teatime | In progress | [noccu]
+Leap into a New World! | Stalled | [noccu] (preview)
 The rest up to 2022/07/08 | Complete | deepl (contributed by Korgi)
 
 # Collab Events
@@ -70,6 +72,7 @@ Agnes Digital | Complete | deepl (contributed by CryDuringItAll)
 Agnes Tachyon | Complete | [Ren][] (ep 1), [noccu][] + [xct][] (ep 2-3), [xct][] (ep 4-7)
 Air Shakur | Complete | deepl (contributed by CryDuringItAll)
 Air Groove | Complete | [burritoblaster][]
+Aston Machan | Complete | [Snep]
 Biwa Hayahide | Complete | deepl (contributed by CryDuringItAll)
 Copano Rickey | Complete | [LotoDS][]
 Curren Chan | Complete | [CatNipHoarder][] & [Holo][]
@@ -81,19 +84,21 @@ Gold City | Complete | [Hades of Games][]
 Gold Ship | Complete | deepl
 Grass Wonder | Complete | deepl
 Haru Urara | Complete | [Vacxy][] (ep 1), deepl
-Hokko Tarumae | Complete | [Riersa]
+Hokko Tarumae | Complete | [Riersa] (deepl edit)
 Inari One | Complete | [LotoDS][]
 Ines Fujin | Complete | [noccu] (ep 1-4), deepl
+Kawakami Princess | Complete | [Director Kok]
 King Halo | Complete | [burritoblaster][]
 Kitasan Black | Complete | [LotoDS][]
 Manhattan Cafe | Complete | [xct][]
 Matikanetannhauser | Complete | [Snep][]
 Maruzensky | Complete | [noccu][]
+Mayano Top Gun | Complete | [Director Kok]
 Mejiro Ardan | Complete | [LotoDS] + [Mini Fox] (minor edits)
 Mejiro Dober | Complete | [LotoDS][]
 Mejiro McQueen | Transferring | [ZarCuZ](https://www.youtube.com/channel/UCMP1EeJrGT5gFchEZTnx68A) (ep 1)
 Mejiro Ryan | Complete | deepl (contributed by CryDuringItAll)
-Mihono Bourbon | Complete, In progress | deepl, [KevinVG207](https://github.com/KevinVG207)
+Mihono Bourbon | Complete | [KevinVG207](https://github.com/KevinVG207)
 Narita Taishin | Complete | deepl (contributed by CryDuringItAll)
 Nice Nature | Complete | [xct]
 Rice Shower  | Complete | [Ben][] (ep 1-4), deepl
@@ -107,6 +112,7 @@ Super Creek | In Progress, Complete | [DantheBoss] (ep 1-2), deepl
 Sweep Tosho | Stalled, Complete | FragmentalSolstice, deepl
 Symboli Rudolf | Complete | deepl
 Taiki Shuttle | Complete | [LotoDS][]
+Twin Turbo | In progress | [Riersa] (1-4)
 Tamamo Cross | Complete | [LotoDS][]
 Vodka | Complete | [robflop][]
 Yaeno Muteki | Complete | [LotoDS][] (ep 1-4), deepl
@@ -114,35 +120,38 @@ Yamanin Zephyr | Complete | [Director Kok][]
 Zenno Rob Roy | Stalled | [LotoDS][] (ep 1-4)
 
 
-# Training story/events
+# Training events
+
+## Scenarios
 name | progress | translator
 --- | --- | ---
 Shared events | Complete | [noccu][]
 
-## URA
-id | name (short) | progress | translator
+### URA
+idx | name (short) | progress | translator
 --- | --- | --- | ---
-Campaign intro | Complete | [noccu]
-002 | Complete | [Korgi]
+08/001 | Campaign intro | Complete | [noccu]
+002 | Final start | Complete | Korgi (deepl edit)
 All others | up to 2022/07/08 | Complete | deepl (contributed by Korgi)
 
-## Aoharu
-id | name (short) | progress | translator
+### Aoharu
+idx | name (short) | progress | translator
 --- | --- | --- | ---
-Campaign intro | Complete | [noccu]
+08/002 | Campaign intro | Complete | [noccu]
 All others | up to 2022/07/08 | Complete | deepl (contributed by Korgi)
 
-## Make a New Track
-id | name (short) | progress | translator
+### Make a New Track
+idx | name (short) | progress | translator
 --- | --- | --- | ---
+08/004 | Campaign intro | Complete | [noccu]
 All not listed | up to 2022/07/08 | Complete | deepl (contributed by Korgi)
 249 | Nyan Nyan Island | Complete | [nem]
 259 | A sudden rain | Complete | [Snep]
 
-## Grand Live
-id | name (short) | progress | translator
+### Grand Live
+idx | name (short) | progress | translator
 --- | --- | --- | ---
-Campaign intro | Complete | deepl
+08/003 | Campaign intro | Complete | [noccu]
 All not listed | up to 2022/08/24 | Complete | deepl
 
 ## Umas
@@ -164,7 +173,8 @@ Narita Taishin | Complete | deepl (contributed by CryDuringItAll)
 Oguri Cap | Complete | deepl
 Rice Shower | Complete | deepl
 Rudolph | Stalled | Anonymous Reindeer
-Sakura Bakushin O | Complete | deepl
+Sakura Bakushin O | Complete, In progress | deepl, [Kasey]
+Vodka | In progress | [robflop]
 
 ## Cards
 name | progress | translator
@@ -178,27 +188,55 @@ Vodka (SSR, Road of Vodka) | Complete | [robflop][]
 name | progress | translator
 --- | --- | ---
 All not listed up to 2023/01/01 | Complete | deepl (contributed by Korgi up to 2022/07/08)
+Aston Machan | Stalled | [Snep] (bday duo 1, bday triplet 1)
 Maruzensky | Complete | [noccu]
+Mihono Bourbon | In progress | [noccu] (solo 1)
 Curren Chan | Complete | [noccu]
 Kitasan Black | Stalled | [noccu] (solo 2)
 Gold Ship | Complete | [noccu] (solo 1-2), deepl
+Hishi Amazon | Stalled | [noccu] (duo 2)
+Rice Shower | Stalled | [Snep] (bday duo 1-2)
+Sakura Bakushin O | In progress | [Kasey]
+Shinko Windy | Stalled | [noccu] (solo 3)
 Yaeno Muteki | Complete | [noccu] (solo 2), deepl
+Vodka | In progress | [robflop]
+
+# Special Events
+
+## Valentine
+name | translator
+--- | ---
+Air Groove | [noccu]
+Agnes Tachyon | [noccu]
+Grass Wonder | [noccu]
+Inari One | [noccu]
+Ines Fujin | [noccu]
+Manhattan Cafe | [Kuwaiden]
+Maruzensky | [noccu]
+Mihono Bourbon | [noccu]
+Nice Nature | [noccu]
+Sakura Bakushin O | [Kasey]
 
 # System text
 name | progress | translator
 --- | --- | ---
 All not listed up to 2022/07/08 | Complete | deepl (contributed by Korgi)
 Eishin Flash | Complete | deepl
+Fine Motion | Complete | [Riersa] (deepl edit)
+Grass Wonder | In progress | [noccu] (67/220)
 Haru Urara | Complete | deepl
-Hokko Tarumae | Complete | [Riersa]
-Mejiro Ardan | Complete | [Riersa]
+Hokko Tarumae | Complete | [Riersa] (deepl edit)
+Ines Fujin | In progress | [noccu]
+Mejiro Ardan | Complete | [Riersa] (deepl edit)
 Meisho Doto | Complete, In Progress | deepl, [Mini Fox][]
-Mejiro Dober | Complete | [Riersa]
-Narita Taishin | Complete | [Riersa]
+Mejiro Dober | Complete | [Riersa] (deepl edit)
+Narita Taishin | Complete | [Riersa] (deepl edit)
+Sakura Bakushin O | Complete | [Kasey]
 Tazuna | In Progress | [Nephiro] (5/78)
 Tokai Teio | Stalled | [noccu] (2/211)
 Twin Turbo | Complete | [noccu]
-Zenno Rob Roy | Complete | [Riersa]
+Vodka | In progress | [robflop]
+Zenno Rob Roy | Complete | [Riersa] (deepl edit)
 
 # General
 name | progress | translator
@@ -211,12 +249,15 @@ name | progress | translator
 --- | --- | ---
 Blaze | Complete | [noccu][]
 BLOW my GALE | Complete | [noccu][]
+DRAMATIC JOURNEY | Complete | [Kasey]
 Egao no Takaramono -Beyond the Future!- | Complete | [LotoDS][]
-Gaze on Me! | Complete | [noccu]
+Gaze on Me! | Complete | [noccu] + [COSMET]
+Girls Legend U | Complete | [noccu] (Edited slightly based on tl by [COSMET])
 Honnou Speed | Complete | [Eight][]
 Make Debut! | Complete | Unknown (https://www.animesonglyrics.com/) + [noccu][] (missing parts)
 Ms. VICTORIA | Complete | [Nine]
 Next Frontier | Complete | [LotoDS][]
+Never Looking Back | Complete | [COSMET]
 Sasayaka na Inori | Complete | [Eight] (edited by [noccu] based in part on tl by [Solo])
 transforming | Complete | [LotoDS][]
 Umapyoi Densetsu | Complete | Anonymous Reindeer, [Karimenrider][] (missing parts)
@@ -251,3 +292,5 @@ Yume wo Kakeru! | Complete | [SkySubs](https://skysubs.carrd.co/)
 [Solo]: https://www.youtube.com/@solotranslation8586
 [Riersa]: https://www.reddit.com/u/Riersa
 [Director Kok]: https://www.twitch.tv/chrissss_pp
+[COSMET]: https://gyaxa.dreamwidth.org/
+[Kasey]: https://diabolicalbaker.carrd.co/
