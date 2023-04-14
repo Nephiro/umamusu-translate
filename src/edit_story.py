@@ -233,7 +233,11 @@ def change_chapter(event=None, initialLoad=False):
     global cur_file
 
     if not initialLoad: save_block()
-    cur_chapter = chapter_dropdown.current()
+    if chapter_dropdown.search:
+        cur_chapter = chapter_dropdown.search[chapter_dropdown.current()]
+        resetChapterSearch()
+    else:
+        cur_chapter = chapter_dropdown.current()
     cur_block = 0
 
     loadFile()
@@ -641,6 +645,22 @@ def toggleSearchPopup(event=None):
         show_search()
 
 
+def searchChapters(event=None):
+    if event.keysym in ("Up", "Down", "Left", "Right", "Return"): return
+    search = chapter_dropdown.get()
+    if search == '':
+        chapter_dropdown['values'] = chapter_dropdown.formattedList
+        chapter_dropdown.search = None
+    else:
+        searchList = {item: i for i, item in enumerate(chapter_dropdown.formattedList) if search in item}
+        chapter_dropdown['values'] = list(searchList.keys()) if searchList else ["No matches found"]
+        chapter_dropdown.search = list(searchList.values()) if searchList else None
+
+def resetChapterSearch():
+    chapter_dropdown['values'] = chapter_dropdown.formattedList
+    chapter_dropdown.search = None
+
+
 def char_convert(event=None):
     pos = text_box_en.index(tk.INSERT)
     start = pos + "-6c"
@@ -667,8 +687,11 @@ def pickColor(useLast=True):
     global LAST_COLOR
     if not useLast or not LAST_COLOR:
         LAST_COLOR = colorchooser.askcolor()[1] #0 = rgb tuple, 1=hex str
-        text_box_en.tag_config(f"color={LAST_COLOR}", foreground=LAST_COLOR)
+        defineColor(LAST_COLOR)
     return LAST_COLOR
+
+def defineColor(color:str):
+    text_box_en.tag_config(f"color={color}", foreground=color)
 
 def format_text(event):
     if not text_box_en.tag_ranges("sel"):
@@ -723,18 +746,22 @@ def insertTaggedTextFromMarkup(widget:tk.Text, text:str=None):
     tagList = list()
     offset = 0
     openedTags = dict()
-    tagRe = r"<(/?)([a-z=#\d]+)>"
+    tagRe = r"<(/?)(([a-z]+)(?:[=#a-z\d]+)?)>"
     for m in re.finditer(tagRe, text, flags=re.IGNORECASE):
-        isClose, tag = m.groups()
+        isClose, fullTag, tagName = m.groups()
+        if tagName not in ("color", "b", "i", "size"):
+            continue
         if isClose:
-            openedTags[tag]['end'] = m.start() - offset
+            openedTags[tagName]['end'] = m.start() - offset
         else:
-            tagList.append({'name': tag, 'start': m.start() - offset})
-            openedTags[tag.split('=')[0]] = tagList[-1]
+            tagList.append({'name': fullTag, 'start': m.start() - offset})
+            openedTags[tagName] = tagList[-1]
+            if tagName == "color":
+                defineColor(fullTag.split("=")[-1])
         offset += len(m[0])
     # Add the cleaned text
     widget.delete(1.0, tk.END)
-    widget.insert(tk.END, re.sub(tagRe, "", text))
+    widget.insert(tk.END, re.sub(tagRe, "", text, flags=re.IGNORECASE))
     # Apply tags
     for toTag in tagList:
         widget.tag_add(toTag['name'], f"1.0+{toTag['start']}c", f"1.0+{toTag['end']}c")
@@ -876,8 +903,11 @@ def main():
     textblock_label.grid(row=0, column=2)
 
     chapter_dropdown = ttk.Combobox(root, width=35)
-    chapter_dropdown['values'] = [f.split("\\")[-1] for f in files]
+    chapter_dropdown.formattedList = [f.split("\\")[-1] for f in files]
+    chapter_dropdown['values'] = chapter_dropdown.formattedList
     chapter_dropdown.bind("<<ComboboxSelected>>", change_chapter)
+    chapter_dropdown.bind("<KeyRelease>", searchChapters)
+    chapter_dropdown.search = None
     chapter_dropdown.grid(row=0, column=1, sticky=tk.NSEW)
     block_dropdown = ttk.Combobox(root, width=35)
     block_dropdown.bind("<<ComboboxSelected>>", change_block)

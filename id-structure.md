@@ -26,7 +26,7 @@ Home type has an extra prefix (`00000 00 0000 000`):
  04 | Uma stories (story mode)
  08 | Story mode prologues/intro | `0000`: URA (001), Aoharu (002)
  09 | Event stories (story mode)
- 10 | Anniversary stories
+ 10 | Anniversary stories (and april fools?)
  11 | Uma-specific campaign dialogues? (Valentines, …)
  12 | Campaign popups? (Omikuji, …)
  13 | Special/Collab stories (KIRARI MAGIC SHOW, …)
@@ -128,7 +128,7 @@ Home type has an extra prefix (`00000 00 0000 000`):
 1083 | Symboli Kris S
 1084 | Tanino Gimlet
 1085 | Daiichi Ruby
-1085 | Mejiro Ramonu
+1086 | Mejiro Ramonu
 1087 | Aston Machan
 1093 | K.S. Miracle
 1098 | Copano Rickey
@@ -193,6 +193,7 @@ Home type has an extra prefix (`00000 00 0000 000`):
 1055 | ゴルシンゴルシンゴルシンシン | Golshingolshingolshinshin
 1056 | メジロ讃歌 | Mejiro Hymn
 1057 | 立ち位置ゼロ番！順位は一番！ | Tachiichi Zeroban! Juni ha Ichiban!
+1058 | Everlasting BEATS
 1059 | Overrunner! | 
 1061 | ゆるパカHAPPY DAYS！ | YuruPaka HAPPY DAYS!
 1062 | わたしの印は大本命◎ | わたしの印は大本命◎

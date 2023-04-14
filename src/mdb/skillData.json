@@ -21,6 +21,7 @@
     "29": "Kakari Chance",
     "30": "Push Chance",
     "31": ["Acceleration", "m/s²"],
+    "32": "All stats",
     "35": "Target Lane",
     "37": "Activate Rare Skill",
     "501": "Event-specific",
@@ -30,7 +31,7 @@
   "ability_value_usage": {
     "0": "None",
     "1": "Direct",
-    "2": "* SkillNum",
+    "2": "* # Skills",
     "3": "* Team Speed",
     "4": "* Team Stamina",
     "5": "* Team Power",
@@ -38,14 +39,15 @@
     "7": "* Team Wis",
     "8": "* Random",
     "9": "* Random2",
-    "10": "",
+    "10": "* Races Won",
     "11": "",
     "12": "",
-    "13": "",
-    "14": "",
+    "13": "* Max Stat",
+    "14": "* # Green Skills",
     "15": "* # Heals Activated",
     "16": "* FinalCornerEndOrder",
-    "17": "* InvTeamMemberCount"
+    "17": "* InvTeamMemberCount",
+    "19": "+0.1 if ≥20m from lead"
   },
   "target_type": {
     "comment": "0 == n/a, 1 == self",
@@ -231,7 +233,23 @@
       "string": "Track condition $"
     },
     "track_id": {
-      "string": "Track $"
+      "lookup": {
+        "10001": "Sapporo",
+        "10002": "Hakodate",
+        "10003": "Niigata",
+        "10004": "Fukushima",
+        "10005": "Nakayama",
+        "10006": "Tokyo",
+        "10007": "Chukyo",
+        "10008": "Kyoto",
+        "10009": "Hanshin",
+        "10010": "Kokura",
+        "10101": "Ooi",
+        "10103": "Kawasaki",
+        "10104": "Funabashi",
+        "10105": "Morioka"
+      },
+      "string": "At $"
     },
     "rotation": {
       "lookup": {

@@ -77,6 +77,7 @@ Biwa Hayahide | Complete | deepl (contributed by CryDuringItAll)
 Copano Rickey | Complete | [LotoDS][]
 Curren Chan | Complete | [CatNipHoarder][] & [Holo][]
 Daiwa Scarlet | Complete | [XiantheMiguel][] (commissioned by AhriParty)
+Daiichi Ruby | In progress | [Riersa] (1-4)
 Eishin Flash | Complete, Stalled, In progress | deepl, [noccu] (ep 1-2), Admiy
 El Condor Pasa | Complete | deepl (contributed by CryDuringItAll)
 Fine Motion | Complete | [LotoDS][]
@@ -97,6 +98,7 @@ Mayano Top Gun | Complete | [Director Kok]
 Mejiro Ardan | Complete | [LotoDS] + [Mini Fox] (minor edits)
 Mejiro Dober | Complete | [LotoDS][]
 Mejiro McQueen | Transferring | [ZarCuZ](https://www.youtube.com/channel/UCMP1EeJrGT5gFchEZTnx68A) (ep 1)
+Mejiro Palmer | In Progress, Complete | [Director Kok] (ep 1-2), deepl
 Mejiro Ryan | Complete | deepl (contributed by CryDuringItAll)
 Mihono Bourbon | Complete | [KevinVG207](https://github.com/KevinVG207)
 Narita Taishin | Complete | deepl (contributed by CryDuringItAll)
@@ -112,7 +114,7 @@ Super Creek | In Progress, Complete | [DantheBoss] (ep 1-2), deepl
 Sweep Tosho | Stalled, Complete | FragmentalSolstice, deepl
 Symboli Rudolf | Complete | deepl
 Taiki Shuttle | Complete | [LotoDS][]
-Twin Turbo | In progress | [Riersa] (1-4)
+Twin Turbo | Complete| [Riersa]
 Tamamo Cross | Complete | [LotoDS][]
 Vodka | Complete | [robflop][]
 Yaeno Muteki | Complete | [LotoDS][] (ep 1-4), deepl
@@ -188,6 +190,7 @@ Vodka (SSR, Road of Vodka) | Complete | [robflop][]
 name | progress | translator
 --- | --- | ---
 All not listed up to 2023/01/01 | Complete | deepl (contributed by Korgi up to 2022/07/08)
+Agnes Tachyon | Complete | [nem] (bday duo 1-2)
 Aston Machan | Stalled | [Snep] (bday duo 1, bday triplet 1)
 Maruzensky | Complete | [noccu]
 Mihono Bourbon | In progress | [noccu] (solo 1)
@@ -216,6 +219,12 @@ Maruzensky | [noccu]
 Mihono Bourbon | [noccu]
 Nice Nature | [noccu]
 Sakura Bakushin O | [Kasey]
+
+## Sakura Front (April Fools (?) 2023)
+name | progress | translator
+--- | --- | ---
+Opening & Ending | Complete | [noccu]
+Short Stories | Complete | [noccu] (010, 014-015, 018), [Director Kok] (001-009, 011-013, 016-017, 019-25)
 
 # System text
 name | progress | translator
@@ -251,6 +260,7 @@ Blaze | Complete | [noccu][]
 BLOW my GALE | Complete | [noccu][]
 DRAMATIC JOURNEY | Complete | [Kasey]
 Egao no Takaramono -Beyond the Future!- | Complete | [LotoDS][]
+Everlasting BEATS | Complete | [noccu]
 Gaze on Me! | Complete | [noccu] + [COSMET]
 Girls Legend U | Complete | [noccu] (Edited slightly based on tl by [COSMET])
 Honnou Speed | Complete | [Eight][]
@@ -258,6 +268,7 @@ Make Debut! | Complete | Unknown (https://www.animesonglyrics.com/) + [noccu][] 
 Ms. VICTORIA | Complete | [Nine]
 Next Frontier | Complete | [LotoDS][]
 Never Looking Back | Complete | [COSMET]
+Pyoitto♪Hallelujah! | Complete | [Kasey]
 Sasayaka na Inori | Complete | [Eight] (edited by [noccu] based in part on tl by [Solo])
 transforming | Complete | [LotoDS][]
 Umapyoi Densetsu | Complete | Anonymous Reindeer, [Karimenrider][] (missing parts)
